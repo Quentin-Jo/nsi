@@ -1,5 +1,4 @@
-Ceci est la page d'accueil d'un site de base généré avec le framework MkDocs et le thème Material.
-
+Ceci est la page d'accueil de mon site web où je vais mettre mes notebooks de NSI.
 > Pour voir le code MarkDown sous jacent, cliquer sur le crayon en haut à droite.
 
 # Voici un titre de niveau 1
