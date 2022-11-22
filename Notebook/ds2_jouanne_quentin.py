@@ -17,35 +17,27 @@ def depiler(pile):
 
 
 def sommet(pile):
-    
     ''' Renvoie la valeur au sommet de la pile mais sans la supprimer de la pile '''
     if est_vide(pile):
-        raise IndexError('Pile Vide')
-    return pile[-1]
+        raise IndexError('pile vide')
+    else:
+        valeur = depiler(pile)
+        empiler(pile, valeur)
+    return valeur
 
 
 
 
 def mettre_disques(pile, n):
-    '''met des disques de taille n à 1 sur la pile'''
-    for i in range(n):
-        empiler(pile, n)
-        n = n-1
-
+    for i in range(n, 0, -1):
+        empiler(pile, i)
 
 def creation_tours(n):
     ''' renvoie une liste de 3 piles,
     la première correspond à la pile des n disques,
     les autres étant vides.'''
+    p0 = creer_pile()
     p1 = creer_pile()
     p2 = creer_pile()
-    p3 = creer_pile()
-    liste_tours = []
-    for i in range(n):
-        empiler(p1, n)
-        n = n-1
-    liste_tours.append(p1)
-    liste_tours.append(p2)
-    liste_tours.append(p3)
-
-    return liste
+    mettre_disques(p0, n)
+    return [p0, p1, p2]
