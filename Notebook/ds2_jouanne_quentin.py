@@ -41,3 +41,26 @@ def creation_tours(n):
     p2 = creer_pile()
     mettre_disques(p0, n)
     return [p0, p1, p2]
+
+
+def deplacer(tours, origine, cible):
+    p0 = tours[origine]
+    p1 = tours[cible]
+    if not est_vide(p0):
+        if est_vide(p1) or sommet(p1) > sommet(p0):
+            empiler(p1, depiler(p0))
+
+def resoudre(tours, n, origine, cible, interm):
+    if n == 1:
+        deplacer(tours, origine, cible)
+    else:
+        resoudre(tours, n-1, origine, interm, cible)
+        deplacer(tours, origine, cible)
+        resoudre(tours, n-1, interm, cible, origine)
+
+
+def nb_etapes(n):
+    if n == 1:
+        return 1
+    else:
+        return 2*nb_etapes(n-1) + 1
