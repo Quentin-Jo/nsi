@@ -10,9 +10,11 @@ Plusieurs types de données :
 
 Possibilité de jointure de tables (.csv, sql..)
 
-Bases de données qui suivent des reglementations : RGBD (à faire plus de recherches..)
+Bases de données qui suivent des reglementations : RGPD (à faire plus de recherches..)
 
 Données "personnelles" qui peuvent ne plus être personnelles avec d'autres tables 
--> Limites de la protection des données
+    -> Limites de la protection des données
 
 L'IA utilise des bases de données gigantesques pour fonctionner (à développer)
+
+Les bases de données sont utilisées partout, par exemple dans des entreprises
