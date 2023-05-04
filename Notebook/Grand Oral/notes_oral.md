@@ -1,4 +1,4 @@
-# Sujets de Grand Oral NSI
+# Sujets de Grand Oral NSI + LLCE
 
 Bases de données avec tables et dictionnaires
 Plusieurs types de données : 
@@ -18,3 +18,7 @@ Données "personnelles" qui peuvent ne plus être personnelles avec d'autres tab
 L'IA utilise des bases de données gigantesques pour fonctionner (à développer)
 
 Les bases de données sont utilisées partout, par exemple dans des entreprises
+
+
+ChatGPT peut-il créer des histires à la façon d'un autre artiste
+Est-ce-que le métier de traducteur à un avenir/un intérêt avec les nouvelles technologies? 
