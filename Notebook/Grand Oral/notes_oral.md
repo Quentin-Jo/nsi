@@ -20,5 +20,5 @@ L'IA utilise des bases de données gigantesques pour fonctionner (à développer
 Les bases de données sont utilisées partout, par exemple dans des entreprises
 
 
-ChatGPT peut-il créer des histires à la façon d'un autre artiste
+ChatGPT peut-il créer des histoires à la façon d'un autre artiste
 Est-ce-que le métier de traducteur à un avenir/un intérêt avec les nouvelles technologies? 
