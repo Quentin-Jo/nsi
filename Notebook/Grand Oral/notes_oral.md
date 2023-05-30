@@ -1,7 +1,7 @@
 # Sujets de Grand Oral NSI + LLCE
 
 Pourquoi avoir choisi ce sujet :
-
+(à remplir)
 
 Qu'est-ce-qu'un base de données ?
 Une base de données est un ensemble d'informations qui est organisé de manière à être facilement accessible, géré et mis à jour. Elle est utilisée par les organisations pour stocker, récupérer ou manipuler des informations.
