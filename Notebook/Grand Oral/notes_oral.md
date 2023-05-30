@@ -3,9 +3,13 @@
 Pourquoi avoir choisi ce sujet :
 (à remplir)
 
+
+**Différence données table / bases de données SQL**
+
+
 Qu'est-ce-qu'un base de données ?
 Une base de données est un ensemble d'informations qui est organisé de manière à être facilement accessible, géré et mis à jour. Elle est utilisée par les organisations pour stocker, récupérer ou manipuler des informations.
-Ces données sont organisées en lignes, colonnes et tableaux et sont indexées pour faciliter la recherche d'informations. Les données vont être mises à jour, complétées ou supprimées au fur et à mesure que de nouvelles informations sont ajoutées. Elle est gérée par un administrateur de base de données (DBA); c'est la personne qui est chargé de la création, de la maintenance, l'optimisation et la sécurité des bases de données dans une organisation.
+Ces données sont organisées en lignes, colonnes et tableaux et sont indexées pour faciliter la recherche d'informations. Les données vont être mises à jour, complétées ou supprimées au fur et à mesure que de nouvelles informations sont ajoutées. Elle est gérée par un administrateur de base de données (DBA); c'est la personne qui est chargé de la création, de la maintenance, l'optimisation et la sécurité des bases de données dans une organisation. Un langage standardisé *SQL* est dédié à cette structure et permet de faire de recherches **et** de modifier *ou* supprimer des informations.
 
 
 Bases de données avec tables et dictionnaires
