@@ -11,7 +11,7 @@ Vocabulaire :
 - BDD (Base de données)
 - SGBD (System de gestion de base de données)
 - SQL (Standard query language *ou* langage de requête standard en français)
-- Conformité ACID :
+- Conformité ACID 
 -A : Principe d'Atomicité : la transaction est exécutée dans de bonnes conditions
 -C: Propriété de Cohérence : seules les données répondant aux règles définies peuvent être inscrites dans la base de données
 - I :L'isolement : plusieurs transactions peuvent être traitées en même temps de manière indépendante
