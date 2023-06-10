@@ -1,35 +1,15 @@
 # Plan Grand Oral
 
 Question :
-Quelles sont les différences entre les bases de données relationelles en SQL et les tables Excel ?
-Quelles solutions choisir pour le traitement des scores des joueurs sur une plateforme de jeu en ligne
+Quelles solutions choisir pour le traitement des scores des joueurs sur une plateforme de jeu en ligne ?
 
 Stocker des scores dans un jeu : tables
-Stocker des scores dans plusieurs jeux  :
+Stocker des scores dans plusieurs jeux : base de données relationelle
 
 Possibilité de plan :
 
-- 1. Expliquer le SQL et Excel (leurs fonctionnalités etc..)
-- 2. Les différences entre le SQL et Excel
-- 3. Pourquoi choisir le SQL à la place d'Excel
-
-
-- 1 SQL/Excel
-- Excel est un programme écrit pour Microsoft Windows et même iPad. Il possède de fonctions de manipulation, de statistiques et d'organisations de données. Ces fonctions permettent de collecter facilement des données pour 
-effectuer des calculs efficacement. Avec les nombreuses fonctions d'Excel, on peut affiner, créer de nouveaux champs calculés et mélanger les données que nous avons dans le tableau. 
-
-- Ce programme est sûr car vous seul avez accès. Il est possible d'y accéder avec un panneau d'administration et peut être consulté par n'importe quel utilisateur. Les données dans le fichier Excel sont contrôlés par 
-l'administrateur et les modifications de tous les utilisateurs sont suivis.
-
-- Le SQL (Structured Query Language) est un langage de programmation utilisé pour communiquer avec les programes de bases de données. Il a été développé au début des années 1960 pour améliorer l'accessibilité des données 
-stockées dans les systèmes informatiques des ordinateurs centraux aux autres ordinateurs et utilisateurs qui y sont connectés. Il faut bien comprendre que le SQL n'est **pas** un langage de programmation. 
-Le SQL est seulement un moyen de communiquer avec les bases de données en utilisant l'un des six systèmes de gestion de bases de données (SGBD) dans tous les langages de programmation, y compris l'anglais.
-
-- Vous écrivez et envoyez des requêtes en SQL à l'info qui reçoit ces requêtes, afin qu'elle vous livre les données demandées ou y apporte des modifications. Les informations sont stockées dans une base de données
-organisées en lignes et en colonnes. 
-
-- 2 Différences SQL/Excel
-- Néanmoins, le SQL et Excel comporte des différences assez importantes. En effet, même si Excel possède une plus grande flexibilité et simplicité, il faut répéter à chaque fois des instructions lorsqu'on insère une
-nouvelle valeur. On peut également faire des erreurs lorsqu'on utilise des commandes. 
+- 1. Comment mettre en place une table pour un seul jeu
+- 2. Comment mettre en place une base de données relationelle pour plusieurs jeux
+- 3. Leurs qualités et défauts + utilisation serveur en NSI avec une table
 
 
